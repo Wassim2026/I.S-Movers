@@ -14,7 +14,9 @@
   <!-- Linearicons CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/linearicons/1.0.0/style.min.css" />
   <!-- FontAwesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+
 
   <script src="js/moving-plugins.min.js"></script>
   <script type="text/javascript" src="js/jquery.countTo.js"></script>
@@ -145,7 +147,7 @@
                             <!-- LAYER NR. 1 -->
                             <div class="tp-caption Concept-Title tp-resizeme rs-parallaxlevel-2" id="slide-673-layer-1" data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']" data-y="['middle','middle','middle','middle']" data-fontsize="['72','70','40','30']"
                                 data-lineheight="['80','80','50','36']" data-voffset="['0','0','0','0']" data-whitespace="nowrap" data-transform_idle="o:1;" data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                                data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;" data-start="1400" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;text-align:center;">Moving your memories since 1995
+                                data-transform_out="x:left(R);s:1000;e:Power3.easeIn;s:1000;e:Power3.easeIn;" data-start="1400" data-splitin="none" data-splitout="none" data-responsive_offset="on" style="z-index: 7; white-space: nowrap;text-align:center;">Moving your memories
                             </div>
 
                             <!-- LAYER NR. 2 -->
@@ -199,12 +201,41 @@
 
                     <!-- SET THIS FORM TO THE CLIENT EMAIL ID -->
                     <form class="quote-form">
-                        <input type="text" name="date" id="date" placeholder="Moving date*" />
-                        <input type="text" name="move-from" id="move-from" placeholder="Moving From*" />
-                        <input type="text" name="move-to" id="move-to" placeholder="Moving To*" />
-                        <input type="submit" name="submit-quote" id="submit-quote" value="Request a free quote" />
-                        <p>* Start typing in the boxes above and let us do the rest</p>
+                      <input type="text" name="full-name" id="full-name" placeholder="Full Name*" required />
+
+                      <input type="tel" name="mobile-number" id="mobile-number" placeholder="Mobile Number*" required />
+
+                      <select name="service" id="service" required>
+                        <option value="" disabled selected>Select Service*</option>
+                        <option value="studio-move">Studio Move</option>
+                        <option value="house-villa-move">House/Villa Move</option>
+                        <option value="office-relocation">Office Relocation</option>
+                        <option value="commercial-move">Commercial Move</option>
+                        <option value="storage-service">Storage Service</option>
+                        <option value="move-store-return">Move-Store-Return</option>
+                      </select>
+                  
+                      <input type="submit" name="submit-quote" id="submit-quote" value="CALL ME BACK" />
+                  
+                      <p>* Please fill in all required fields</p>
                     </form>
+                    <!-- Icon Feature List (added after form) -->
+                    <div class="features" style="margin-top: 50px; display: flex; flex-wrap: wrap; justify-content: center; gap: 40px;">
+                      <div class="feature-item" style="text-align: center;">
+                        <i class="fa fa-clock" style="font-size: 45px;"></i>
+                        <h4 style="font-size: 20px; color: #ffffff; font-weight: bold;">24/7 Moving Services</h4>
+                      </div>
+                  
+                      <div class="feature-item" style="text-align: center;">
+                        <i class="fa fa-shield-alt" style="font-size: 45px;"></i>
+                        <h4 style="font-size: 20px; color: #ffffff; font-weight: bold;">Security & Reliability</h4>
+                      </div>
+                  
+                      <div class="feature-item" style="text-align: center;">
+                        <i class="fa fa-users-cog" style="font-size: 45px;"></i>
+                        <h4 style="font-size: 20px; color: #ffffff; font-weight: bold;">Trained Movers & Packers</h4>
+                      </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -215,7 +246,7 @@
         <section class="moving-services-section">
             <div class="container">
                 <div class="title-section">
-                  <h1>Moving Services</h1>
+                  <h1 style="font-weight: bold; font-size: 50px; color: #183F72;">Moving Services</h1>
                   <p>Looking to relocate? We’ve got your back. Our comprehensive moving services ensure safe handling, secure transport, and on-time delivery of your possessions. With expert movers and quality packing materials, we make moving easy — and hassle-free.</p>
                 </div>
                 <div class="moving-services-box">
@@ -226,7 +257,7 @@
                                     <i class="fa fa-home"></i>
                                     <h2>Local Moving</h2>
                                     <p>Need to move across town? Our local moving service is fast, affordable, and stress-free. We handle everything from packing and loading to transportation and unpacking — all with care and professionalism. Let us make your local move smooth and efficient.</p>
-                                    <a href="contact.html">Read More</a>
+                                    <a href="contact.html">Book Now</a>
                                 </div>
                                 <div class="hover-services">
                                     <img src="upload/others/serv1.jpg" alt="">
@@ -237,7 +268,7 @@
                                           <li>Trained movers for careful loading and unloading</li>
                                           <li>Quick and safe transport to your new location</li>
                                         </ul>
-                                        <a href="contact.html">Read More</a>
+                                        <a href="contact.html">Book Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -248,7 +279,7 @@
                                     <i class="fa fa-bus"></i>
                                     <h2>Long Distance Moves</h2>
                                     <p>Planning a move to another city or state? Our long-distance moving services ensure your belongings are packed securely, transported safely, and delivered on time — no matter the distance. We handle every detail so you can move with confidence.</p>
-                                    <a href="contact.html">Read More</a>
+                                    <a href="contact.html">Book Now</a>
                                 </div>
                                 <div class="hover-services">
                                     <img src="upload/others/serv2.jpg" alt="">
@@ -259,7 +290,7 @@
                                           <li>Timely pickups and nationwide delivery</li>
                                           <li>Real-time tracking and dedicated support</li>
                                         </ul>
-                                        <a href="contact.html">Read More</a>
+                                        <a href="contact.html">Book Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -272,7 +303,7 @@
                                     <i class="fa fa-layer-group"></i>
                                     <h2>Commercial Moving</h2>
                                     <p>We offer hassle-free commercial moving with minimal disruption. Our team moves office equipment, furniture, and files securely — with precision and speed.</p>
-                                    <a href="contact.html">Read More</a>
+                                    <a href="contact.html">Book Now</a>
                                 </div>
                                 <div class="hover-services">
                                     <img src="upload/others/serv3.jpg" alt="">
@@ -283,7 +314,7 @@
                                           <li>Flexible scheduling to avoid business disruptions</li>
                                           <li>Confidential document and server relocation</li>
                                         </ul>
-                                        <a href="contact.html">Read More</a>
+                                        <a href="contact.html">Book Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -294,7 +325,7 @@
                                     <i class="fa fa-store"></i>
                                     <h2>Storage Services</h2>
                                     <p>Need a secure place to store your belongings during or after your move? Our short-term and long-term storage solutions are safe, clean, and fully monitored. Whether it's household items or business inventory, we’ve got you covered.</p>
-                                    <a href="contact.html">Read More</a>
+                                    <a href="contact.html">Book Now</a>
                                 </div>
                                 <div class="hover-services">
                                     <img src="upload/others/serv4.jpg" alt="">
@@ -305,7 +336,7 @@
                                           <li>Short-term and long-term storage options</li>
                                           <li>Inventory management and easy access</li>
                                         </ul>
-                                        <a href="contact.html">Read More</a>
+                                        <a href="contact.html">Book Now</a>
                                     </div>
                                 </div>
                             </div>
@@ -391,7 +422,7 @@
                         <div class="col-md-6 col-md-offset-6">
 
                             <div class="sect-title">
-                                <h1>#1 Moving Company</h1>
+                                <h1 style="font-weight: bold; font-size: 50px; color: #183F72;">#1 Moving Company</h1>
                                 <p>What we do and what you can expect from us</p>
                             </div>
 
@@ -427,68 +458,142 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section>  
         <!-- End moving-company section -->
 
         <!-- testimonial-section 
 			================================================== -->
-        <section class="testimonial-section">
+        <section class="testimonial-section" style="background-color: #086bac;">
             <div class="container">
                 <div class="title-section">
-                    <h1>Customer Feedback</h1>
-                    <p>We value every customer’s experience and strive to provide exceptional service. Here’s what some of our satisfied clients have to say about their smooth and stress-free moves with us.</p>                
+                    <h1 style="color: white; font-weight: bolder;">Customer Feedback</h1>
+                    <p style="color: white;">
+                        We value every customer’s experience and strive to provide exceptional service. Here’s what some of our satisfied clients have to say about their smooth and stress-free moves with us.
+                    </p>                
                 </div>
             </div>
             <div class="testimonial-box owl-wrapper">
                 <div class="owl-carousel" data-num="3">
-                  <div class="item">
-                    <div class="testimonial-post">
-                      <img src="upload/others/test1.jpg" alt="Fatima Al Mansouri">
-                      <p>"Exceptional moving experience! The team was punctual, professional, and handled my belongings with utmost care. Highly recommended for anyone relocating within Dubai."</p>
-                      <h3>Fatima Al Mansouri</h3>
-                      <span>Sharjah, UAE</span>
+                    <div class="item" style="margin: 15px;">
+                        <div class="testimonial-post" style="background-color: white; color: black; padding: 20px; border-radius: 10px;">
+                            <img src="upload/others/test1.jpg" alt="Fatima Al Mansouri">
+                            <p>"Exceptional moving experience! The team was punctual, professional, and handled my belongings with utmost care. Highly recommended for anyone relocating within Dubai."</p>
+                            <h3>Fatima Al Mansouri</h3>
+                            <span>Sharjah, UAE</span>
+                        </div>
                     </div>
-                  </div>
-              
-                  <div class="item">
-                    <div class="testimonial-post">
-                      <img src="upload/others/test2.jpg" alt="Ahmed Saeed">
-                      <p>"The movers were efficient and friendly, making my office relocation seamless. Great communication and attention to detail throughout the process."</p>
-                      <h3>Ahmed Saeed</h3>
-                      <span>Abu Dhabi, UAE</span>
+                
+                    <div class="item" style="margin: 15px;">
+                        <div class="testimonial-post" style="background-color: white; color: black; padding: 20px; border-radius: 10px;">
+                            <img src="upload/others/test2.jpg" alt="Ahmed Saeed">
+                            <p>"The movers were efficient and friendly, making my office relocation seamless. Great communication and attention to detail throughout the process."</p>
+                            <h3>Ahmed Saeed</h3>
+                            <span>Abu Dhabi, UAE</span>
+                        </div>
                     </div>
-                  </div>
-              
-                  <div class="item">
-                    <div class="testimonial-post">
-                      <img src="upload/others/test3.jpg" alt="Sara Al Farsi">
-                      <p>"I was nervous about moving internationally, but their long-distance moving service was flawless. My items arrived on time and in perfect condition."</p>
-                      <h3>Sara Al Farsi</h3>
-                      <span>Dubai, UAE</span>
+                
+                    <div class="item" style="margin: 15px;">
+                        <div class="testimonial-post" style="background-color: white; color: black; padding: 20px; border-radius: 10px;">
+                            <img src="upload/others/test3.jpg" alt="Sara Al Farsi">
+                            <p>"I was nervous about moving internationally, but their long-distance moving service was flawless. My items arrived on time and in perfect condition."</p>
+                            <h3>Sara Al Farsi</h3>
+                            <span>Dubai, UAE</span>
+                        </div>
                     </div>
-                  </div>
-              
-                  <div class="item">
-                    <div class="testimonial-post">
-                      <img src="upload/others/test4.jpg" alt="Khalid Bin Zayed">
-                      <p>"Highly professional team with excellent customer service. They handled all packing and unpacking swiftly, making my home move effortless."</p>
-                      <h3>Khalid Bin Zayed</h3>
-                      <span>Ajman, UAE</span>
+                
+                    <div class="item" style="margin: 15px;">
+                        <div class="testimonial-post" style="background-color: white; color: black; padding: 20px; border-radius: 10px;">
+                            <img src="upload/others/test4.jpg" alt="Khalid Bin Zayed">
+                            <p>"Highly professional team with excellent customer service. They handled all packing and unpacking swiftly, making my home move effortless."</p>
+                            <h3>Khalid Bin Zayed</h3>
+                            <span>Ajman, UAE</span>
+                        </div>
                     </div>
-                  </div>
-              
-                  <div class="item">
-                    <div class="testimonial-post">
-                      <img src="upload/others/test5.jpg" alt="Leila Hassan">
-                      <p>"Reliable and trustworthy movers! They took the stress out of moving and provided great value for the service. Would definitely use them again."</p>
-                      <h3>Leila Hassan</h3>
-                      <span>Dubai, UAE</span>
+                
+                    <div class="item" style="margin: 15px;">
+                        <div class="testimonial-post" style="background-color: white; color: black; padding: 20px; border-radius: 10px;">
+                            <img src="upload/others/test5.jpg" alt="Leila Hassan">
+                            <p>"Reliable and trustworthy movers! They took the stress out of moving and provided great value for the service. Would definitely use them again."</p>
+                            <h3>Leila Hassan</h3>
+                            <span>Dubai, UAE</span>
+                        </div>
                     </div>
-                  </div>
                 </div>
             </div>
         </section>
         <!-- End testimonial section -->
+        
+        <!-- Pricing Section -->
+
+        <section id="pricing" style="padding: 60px 20px; background: #f9f9f9;">
+            <div style="text-align: center;">
+              <h2 style="font-size: 40px;font-weight: bolder;  margin-bottom: 20px; color: #183F72;">Our Prices</h2>
+              <p style="max-width: 700px; margin: 0 auto 50px; font-size: 15px; color: #555;">
+                The cost of packers and movers in Dubai depends on the capacity or size of stuff as well as your moving requirements. You can estimate the price below. Final cost depends on volume, distance, and services needed. Just contact us for affordable pricing and comprehensive moving and packing services.
+              </p>
+          
+              <div style="display: flex; flex-wrap: wrap; gap: 30px; justify-content: center;">
+                <div style="background: white; border-radius: 12px; box-shadow: 0 4px 15px rgb(0 0 0 / 0.15); width: 350px; padding: 30px; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <h3 style="color: #007BFF; margin-bottom: 10px; font-size: 18px; font-weight: bold; letter-spacing: 1px;">For Studio: Starting From</h3>
+                    <p style="color: #333; font-weight: bold; margin: 33px 0 25px 0;">
+                      <span style="font-variant: small-caps; font-size: 30px;">aed</span> 
+                      <span style="font-size: 60px">500</span>
+                    </p>
+                    <ul style="list-style: none; padding: 0; color: #555; font-size: 15px; text-align: left;">
+                      <li>✓ AED 500 to 1050</li>
+                    </ul>
+                  </div>
+                  <a class="price-book-now" href="https://wa.me/971542857671?text=Hello%20I%20want%20to%20book%20the%20Studio%20Pack%20service" target="_blank" 
+                     style="margin-top: 30px; background-color: #002446; color: white; text-decoration: none; padding: 16px 25px; border-radius: 8px; font-weight: bold; font-size: 1.2rem; display: inline-block;">
+                    Book Now
+                  </a>
+                </div>
+            
+                <div style="background: white; border-radius: 12px; box-shadow: 0 4px 15px rgb(0 0 0 / 0.15); width: 350px; padding: 30px; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <h3 style="color: #007BFF; margin-bottom: 10px; font-size: 18px; font-weight: bold; letter-spacing: 1px;">
+                      For Bedroom: Starting From
+                    </h3>
+                    <p style="color: #333; font-weight: bold; margin: 33px 0 25px 0;">
+                      <span style="font-variant: small-caps; font-size: 30px;">aed</span> 
+                      <span style="font-size: 60px">949</span>
+                    </p>
+                    <ul style="list-style: none; padding: 0; color: #555; font-size: 15px; text-align: left;">
+                      <li>✓ 1 BHK: AED 949 to 1450</li>
+                      <li>✓ 2 BHK: AED 1350 to 1950</li>
+                      <li>✓ 3 BHK: AED 1950 to 2850</li>
+                    </ul>
+                  </div>
+                  <a class="price-book-now" href="https://wa.me/971542857671?text=Hello%20I%20want%20to%20book%20the%Bedroom%20Pack%20service" target="_blank" 
+                     style="margin-top: 30px; background-color: #002446; color: white; text-decoration: none; padding: 16px 25px; border-radius: 8px; font-weight: bold; font-size: 1.2rem; display: inline-block;">
+                    Book Now
+                  </a>
+                </div>
+
+                <div style="background: white; border-radius: 12px; box-shadow: 0 4px 15px rgb(0 0 0 / 0.15); width: 350px; padding: 30px; display: flex; flex-direction: column; justify-content: space-between;">
+                  <div>
+                    <h3 style="color: #007BFF; margin-bottom: 10px; font-size: 18px; font-weight: bold; letter-spacing: 1px;">
+                      For Villa: Starting From
+                    </h3>
+                    <p style="color: #333; font-weight: bold; margin: 33px 0 25px 0;">
+                      <span style="font-variant: small-caps; font-size: 30px;">aed</span> 
+                      <span style="font-size: 60px">2350</span>
+                    </p>
+                    <ul style="list-style: none; padding: 0; color: #555; font-size: 15px; text-align: left;">
+                      <li>✓ 3 BHK: AED 2350 to 3250</li>
+                      <li>✓ 5 BHK: AED 3150 to 4350</li>
+                    </ul>
+                  </div>
+                  <a class="price-book-now" href="https://wa.me/971542857671?text=Hello%20I%20want%20to%20book%20the%20Villa%20Pack%20service" target="_blank" 
+                     style="margin-top: 30px; background-color: #002446; color: white; text-decoration: none; padding: 16px 25px; border-radius: 8px; font-weight: bold; font-size: 1.2rem; display: inline-block;">
+                    Book Now
+                  </a>
+                </div>
+              </div>
+            </div>
+        </section>
+
 
         <!-- contacting-section 
 			================================================== -->
@@ -507,10 +612,8 @@
                 </form>
             </div>
 
-            <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d230961.52023639195!2d55.007081194531246!3d25.24454420000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f430bdcfbf6af%3A0x9ffabe0f400bcc2f!2sLS%20Packers%20%26%20Movers%20Dubai!5e0!3m2!1sen!2sae!4v1754236450317!5m2!1sen!2sae" width="760" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d8637.805844531615!2d54.3680803804105!3d24.4594580352509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sae!4v1754304897141!5m2!1sen!2sae" width="760" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
         </section>
         <!-- End contacting section -->
 
@@ -587,6 +690,14 @@
         <!-- End footer -->
 
     </div>
+
+    
+    <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/971542857671" class="whatsapp-float" target="_blank">
+  <i class="fa fa-whatsapp whatsapp-icon"></i>
+</a>
+
+
     <!-- End Container -->
 
     <script type="text/javascript">
