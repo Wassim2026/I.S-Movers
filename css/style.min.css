@@ -46,8 +46,8 @@ audio:not([controls]) {
 }
 
 .navbar-brand img {
-    width: 120px;
-    height: 70px;
+    width: 140px;
+    height: 90px;
   }
 
 [hidden],
@@ -6991,7 +6991,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000\9;
+    background-color: #0009;
     background-color: transparent;
     border: 1px solid #fff;
     border-radius: 10px
@@ -23236,7 +23236,7 @@ a {
 
 .navbar-nav>li>a {
     color: #212121 !important;
-    font-size: 12px;
+    font-size: 15px;
     font-family: Montserrat, sans-serif;
     font-weight: 400;
     text-transform: uppercase;
@@ -23246,8 +23246,8 @@ a {
 
 .navbar-nav>li>a.active,
 .navbar-nav>li>a:hover {
-    color: #3f51b5 !important;
-    border-bottom: 1px solid #3f51b5
+    color: #c38463 !important;
+    border-bottom: 1px solid #c38463
 }
 
 .navbar-nav>li>a.open-search {
@@ -23305,7 +23305,7 @@ a {
 }
 
 .top-line ul.social-icons li a:hover {
-    color: #3f51b5
+    color: #c38463
 }
 
 header.active .top-line {
@@ -23324,7 +23324,7 @@ ul.drop-down {
     left: 0;
     visibility: hidden;
     padding: 10px 0;
-    border-top: 2px solid #3f51b5;
+    border-top: 2px solid #c38463;
     opacity: 0;
     transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -23349,7 +23349,7 @@ ul.drop-down li a {
 }
 
 ul.drop-down li a:hover {
-    color: #3f51b5
+    color: #c38463
 }
 
 .form-search {
@@ -23392,7 +23392,7 @@ ul.drop-down li a:hover {
 }
 
 .form-search button i {
-    color: #3f51b5;
+    color: #c38463;
     font-size: 16px
 }
 
@@ -23403,7 +23403,7 @@ ul.drop-down li a:hover {
 
 section.quote-section {
     padding: 60px 0;
-    background: #3f51b5
+    background: #c38463
 }
 
 section.quote-section .quote-box {
@@ -23499,16 +23499,16 @@ section.quote-section .quote-box form input[type=submit] {
     -webkit-transition: all .2s ease-in-out;
     -o-transition: all .2s ease-in-out;
     border-radius: 24px;
-    box-shadow: 0 0 10px #2b387d;
-    -webkit-box-shadow: 0 0 10px #2b387d;
-    -moz-box-shadow: 0 0 10px #2b387d;
-    -o-box-shadow: 0 0 10px #2b387d;
+    box-shadow: 0 0 10px #c38463;
+    -webkit-box-shadow: 0 0 10px #c38463;
+    -moz-box-shadow: 0 0 10px #c38463;
+    -o-box-shadow: 0 0 10px #c38463;
     margin: 0 10px 10px
 }
 
 section.quote-section .quote-box form input[type=submit]:hover {
     background: #fff;
-    color: #3f51b5
+    color: #c38463
 }
 
 section.quote-section .quote-box form p {
@@ -23602,7 +23602,7 @@ section.quote-section .quote-box form p {
 }
 
 a.button-white {
-    color: #3f51b5;
+    color: #c38463;
     font-size: 11px;
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
@@ -23618,7 +23618,7 @@ a.button-white {
 
 a.button-white:hover {
     color: #fff;
-    background: #3f51b5
+    background: #c38463
 }
 
 .center-button {
@@ -23689,7 +23689,7 @@ section.page-banner-section h1 {
 
 section.page-banner-section a {
     float: right;
-    color: #3f51b5;
+    color: #c38463;
     font-size: 11px;
     font-weight: 600;
     font-family: Montserrat, sans-serif;
@@ -23698,10 +23698,10 @@ section.page-banner-section a {
     background: #fff;
     margin-top: 15px;
     border-radius: 20px;
-    box-shadow: 0 6px 10px #313b75;
-    -webkit-box-shadow: 0 6px 10px #313b75;
-    -moz-box-shadow: 0 6px 10px #313b75;
-    -o-box-shadow: 0 6px 10px #313b75
+    box-shadow: 0 6px 10px #c38463;
+    -webkit-box-shadow: 0 6px 10px #c38463;
+    -moz-box-shadow: 0 6px 10px #c38463;
+    -o-box-shadow: 0 6px 10px #c38463
 }
 
 section.page-banner-section a:hover {
@@ -23720,7 +23720,7 @@ section.page-banner-section:after {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(64, 81, 181, .9)
+    background: #c38463;
 }
 
 section.page-banner-section.contact {
@@ -23860,7 +23860,7 @@ section.moving-services-section .moving-services-box .moving-services-post {
 section.moving-services-section .moving-services-box .moving-services-post .inner-post i,
 section.moving-services-section .moving-services-box .moving-services-post .inner-post span {
     display: inline-block;
-    color: #3f51b5;
+    color: #c38463;
     font-size: 38px;
     margin-bottom: 20px
 }
@@ -23870,7 +23870,7 @@ section.moving-services-section .moving-services-box .moving-services-post .inne
 }
 
 section.moving-services-section .moving-services-box .moving-services-post .inner-post a {
-    color: #3f51b5;
+    color: #c38463;
     font-size: 11px;
     font-weight: 600;
     font-family: Montserrat, sans-serif;
@@ -23944,7 +23944,7 @@ section.moving-services-section .moving-services-box .moving-services-post .hove
 
 section.moving-services-section .moving-services-box .moving-services-post .hover-services .inner-hover a:hover {
     background: #fff;
-    color: #3f51b5
+    color: #c38463
 }
 
 section.moving-services-section .moving-services-box .moving-services-post .hover-services:before {
@@ -23954,7 +23954,7 @@ section.moving-services-section .moving-services-box .moving-services-post .hove
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(64, 81, 181, .9);
+    background: #c38463;
     z-index: 2;
     border-radius: 6px
 }
@@ -23995,7 +23995,7 @@ section.removal-needs-section .removal-needs-box .removal-post {
 section.removal-needs-section .removal-needs-box .removal-post h2 i,
 section.removal-needs-section .removal-needs-box .removal-post h2 span {
     display: inline-block;
-    color: #3f51b5;
+    color: #c38463;
     font-size: 18px;
     margin-right: 8px
 }
@@ -24022,7 +24022,7 @@ section.removal-needs-section .removal-needs-box .removal-image p {
 
 section.removal-needs-section .removal-needs-box .removal-image p span {
     display: inline-block;
-    color: #3f51b5;
+    color: #c38463;
     font-size: 11px;
     font-weight: 600;
     font-family: Montserrat, sans-serif;
@@ -24041,8 +24041,8 @@ section.removal-needs-section .removal-needs-box .removal-image p a {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     padding: 10px 45px;
-    background: #3f51b5;
-    border: 2px solid #3f51b5;
+    background: #c38463;
+    border: 2px solid #c38463;
     border-radius: 20px;
     margin-left: 8px;
     box-shadow: 0 6px 10px #dfe1fd;
@@ -24110,7 +24110,7 @@ section.moving-company-section .moving-company-box .statistic-box .statistic-pos
 
 section.moving-company-section .moving-company-box .statistic-box .statistic-post p.timer-elem {
     display: inline-block;
-    color: #3f51b5;
+    color: #c38463;
     font-size: 36px;
     font-weight: 400;
     margin-bottom: 20px
@@ -24151,7 +24151,7 @@ section.testimonial-section .testimonial-box .testimonial-post p {
 
 section.testimonial-section .testimonial-box .testimonial-post h3 {
     font-size: 15px;
-    color: #3f51b5;
+    color: #c38463;
     margin-bottom: -4px
 }
 
@@ -24178,7 +24178,7 @@ section.testimonial-section .testimonial-box .testimonial-post span {
 
 .owl-theme .owl-controls.clickable .owl-page:hover span,
 .owl-theme .owl-controls .owl-page.active span {
-    background: #3f51b5;
+    background: #c38463;
     border-color: transparent
 }
 
@@ -24199,7 +24199,7 @@ section.team-section .team-box .team-post img {
 }
 
 section.team-section .team-box .team-post h2 {
-    color: #3f51b5;
+    color: #c38463;
     margin-bottom: 0
 }
 
@@ -24238,7 +24238,7 @@ section.reviews-section .reviews-box .reviews-article p {
 }
 
 section.reviews-section .reviews-box .reviews-article p a {
-    color: #3f51b5
+    color: #c38463
 }
 
 section.reviews-testimonial-section {
@@ -24266,7 +24266,7 @@ section.reviews-testimonial-section .reviews-testimonial-box .reviews-testimonia
     float: left;
     width: 70px;
     height: 70px;
-    background: #3f51b5;
+    background: #c38463;
     border-radius: 50%;
     text-align: center;
     line-height: 90px
@@ -24295,7 +24295,7 @@ section.reviews-testimonial-section .reviews-testimonial-box .reviews-testimonia
 }
 
 section.reviews-testimonial-section .reviews-testimonial-box .reviews-testimonial-post .testimonial-text h3 {
-    color: #3f51b5;
+    color: #c38463;
     font-size: 15px;
     margin-bottom: -4px
 }
@@ -24326,7 +24326,7 @@ section.services-section .services-box .services-post {
 section.services-section .services-box .services-post i,
 section.services-section .services-box .services-post span.lnr {
     float: left;
-    color: #3f51b5;
+    color: #c38463;
     font-size: 50px
 }
 
@@ -24335,7 +24335,7 @@ section.services-section .services-box .services-post .services-post-content {
 }
 
 section.services-section .services-box .services-post .services-post-content h2 {
-    color: #3f51b5
+    color: #c38463
 }
 
 section.services-section .services-box .services-post .services-post-content p span {
@@ -24349,7 +24349,7 @@ section.services-section .services-box .services-post .services-post-content ul.
 }
 
 section.services-section .services-box .services-post .services-post-content ul.services-list li {
-    color: #3f51b5;
+    color: #c38463;
     font-size: 14px;
     font-family: Montserrat, sans-serif;
     font-weight: 600;
@@ -24367,7 +24367,7 @@ section.services-section .services-box .services-post .services-post-content a {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     padding: 12px 27px;
-    background: #3f51b5;
+    background: #c38463;
     border-radius: 20px;
     box-shadow: 0 6px 15px #e4e5fd;
     -webkit-box-shadow: 0 6px 15px #e4e5fd;
@@ -24433,7 +24433,7 @@ section.blog-section .blog-box .blog-post h2 a {
 }
 
 section.blog-section .blog-box .blog-post h2 a:hover {
-    color: #3f51b5
+    color: #c38463
 }
 
 section.blog-section .blog-box .blog-post ul.post-meta {
@@ -24457,7 +24457,7 @@ section.blog-section .blog-box .blog-post ul.post-meta li a {
 }
 
 section.blog-section .blog-box .blog-post ul.post-meta li a:hover {
-    color: #3f51b5
+    color: #c38463
 }
 
 section.blog-section .blog-box .blog-post p {
@@ -24466,7 +24466,7 @@ section.blog-section .blog-box .blog-post p {
 
 section.blog-section .blog-box .blog-post a.button-continue {
     display: inline-block;
-    color: #3f51b5;
+    color: #c38463;
     font-size: 11px;
     font-weight: 600;
     font-family: Montserrat, sans-serif;
@@ -24524,7 +24524,7 @@ section.blog-section .blog-box .blog-post.single-post blockquote {
 
 .pagination-box a.next:hover,
 .pagination-box a.prev:hover {
-    color: #3f51b5
+    color: #c38463
 }
 
 .pagination-box a.prev {
@@ -24557,7 +24557,7 @@ section.blog-section .blog-box .blog-post.single-post blockquote {
 
 .pagination-box ul.page-list li a.active,
 .pagination-box ul.page-list li a:hover {
-    color: #3f51b5;
+    color: #c38463;
     border: 2px solid #d6d6d6
 }
 
@@ -24644,12 +24644,12 @@ section.blog-section .blog-box .blog-post.single-post blockquote {
 }
 
 .sidebar .category-widget ul li a:hover {
-    color: #3f51b5;
+    color: #c38463;
     text-decoration: underline !important
 }
 
 .sidebar .category-widget ul li a:hover:before {
-    background: #3f51b5
+    background: #c38463
 }
 
 .sidebar .category-widget ul li:last-child {
@@ -24685,7 +24685,7 @@ section.blog-section .blog-box .blog-post.single-post blockquote {
 }
 
 .sidebar .popular-widget ul.popular-list li .side-content h2 a:hover {
-    color: #3f51b5
+    color: #c38463
 }
 
 .sidebar .popular-widget ul.popular-list li .side-content span {
@@ -24781,8 +24781,8 @@ section.statistic-section .statistic-box p.info-line span {
 }
 
 section.statistic-section .statistic-box p.info-line a {
-    background: #3f51b5;
-    border: 2px solid #3f51b5;
+    background: #c38463;
+    border: 2px solid #c38463;
     border-radius: 20px;
     margin-left: 8px
 }
@@ -24802,7 +24802,7 @@ section.about-section .about-box p {
 }
 
 section.about-section .about-box p a {
-    color: #3f51b5
+    color: #c38463
 }
 
 section.about-section .about-box p a:hover {
@@ -24877,7 +24877,7 @@ section.blog-section.single-post .blog-box .blog-post .article-cont p span {
 }
 
 .comment-area-box>ul li .comment-box .comment-content a:hover {
-    color: #3f51b5
+    color: #c38463
 }
 
 .comment-area-box>ul li .comment-box .comment-content p {
@@ -24947,8 +24947,8 @@ section.blog-section.single-post .blog-box .blog-post .article-cont p span {
     font-family: Montserrat, sans-serif;
     text-transform: uppercase;
     padding: 12px 45px;
-    background: #3f51b5;
-    border: 2px solid #3f51b5;
+    background: #c38463;
+    border: 2px solid #c38463;
     border-radius: 25px;
     box-shadow: 0 6px 10px #dfe1fd;
     -webkit-box-shadow: 0 6px 10px #dfe1fd;
@@ -24969,7 +24969,7 @@ section.blog-section.single-post .blog-box .blog-post .article-cont p span {
     width: 100%;
     height: 640px
 }
-
+ 
 section.contacting-section {
     overflow: hidden
 }
@@ -24984,7 +24984,7 @@ section.contacting-section .contacting-box {
     float: left;
     width: 50%;
     padding: 110px 110px 80px;
-    background: #111 url(../upload/others/mov2.jpg) 50% no-repeat;
+    background: #111 url(../upload/others/mov2.png) 50% no-repeat;
     background-size: cover
 }
 
@@ -25056,16 +25056,16 @@ section.contacting-section form#qcon-form input[type=submit] {
     border: none;
     background: #f64747;
     border-radius: 25px;
-    box-shadow: 0 10px 15px #3e4da0;
-    -webkit-box-shadow: 0 10px 15px #3e4da0;
-    -moz-box-shadow: 0 10px 15px #3e4da0;
-    -o-box-shadow: 0 10px 15px #3e4da0;
+    box-shadow: 0 10px 15px #c38463;
+    -webkit-box-shadow: 0 10px 15px #c38463;
+    -moz-box-shadow: 0 10px 15px #c38463;
+    -o-box-shadow: 0 10px 15px #c38463;
     margin-bottom: 5px
 }
 
 section.contacting-section form#qcon-form input[type=submit]:hover {
     background: #fff;
-    color: #3f51b5
+    color: #c38463
 }
 
 section.contact-section {
@@ -25134,7 +25134,7 @@ section.contact-section #contact-form textarea {
 
 section.contact-section #contact-form span.call {
     display: inline-block;
-    color: #3f51b5;
+    color: #c38463;
     background: transparent;
     border: 2px solid #eee;
     border-radius: 25px;
@@ -25152,8 +25152,8 @@ section.contact-section #contact-form span.call {
 
 section.contact-section #contact-form input[type=submit] {
     color: #fff;
-    background: #3f51b5;
-    border: 2px solid #3f51b5;
+    background: #c38463;
+    border: 2px solid #c38463;
     border-radius: 25px;
     margin-left: 8px;
     box-shadow: 0 6px 10px #dfe1fd;
@@ -25287,7 +25287,7 @@ footer p.copyright-line {
     }
     .navbar-nav>li>a.active,
     .navbar-nav>li>a:hover {
-        color: #3f51b5 !important;
+        color: #c38463 !important;
         border-bottom: 1px solid transparent !important
     }
     .navbar-nav>li>a:after {
@@ -25373,3 +25373,130 @@ footer p.copyright-line {
     height: 60px;
     line-height: 60px;
   }
+
+/* Who are we section css */
+
+.who-we-are {
+  display: flex;
+  flex-direction: column;
+  padding: 40px 20px;
+  max-width: 1280px;
+  margin: 0 auto;
+  gap: 40px;
+}
+
+@media (min-width: 768px) {
+  .who-we-are {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 80px;
+  }
+}
+
+.who-we-are__text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.who-we-are__title-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.title-bar {
+  width: 40px;
+  height: 4px;
+  background-color: #1ca5c7;
+  display: inline-block;
+}
+
+.section-label {
+  color: #1ca5c7;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.section-heading {
+  font-size: 36px;
+  font-weight: 700;
+  color: #c38463;
+  margin-bottom: 24px;
+}
+
+.section-description {
+  font-size: 16px;
+  color: #4a4a4a;
+  line-height: 1.7;
+  margin-bottom: 24px;
+}
+
+.view-more-button {
+  display: inline-block;
+  background-color: #c38463;
+  color: white;
+  padding: 12px 24px;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.view-more-button:hover {
+  background-color: #c38463;
+}
+
+.who-we-are__image {
+  flex: 1;
+  padding-left: 0;
+}
+
+@media (min-width: 768px) {
+  .who-we-are__image {
+    padding-left: 48px;
+  }
+}
+
+.who-we-are__image img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.call-now-nav a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #007bff; /* Blue for number */
+}
+
+.call-now-nav i {
+    font-size: 18px;
+    color: #007bff;
+}
+
+.call-now-nav .call-text {
+    color: #555;
+    font-weight: 500;
+}
+
+.call-now-nav .call-number {
+    font-weight: bold;
+    font-size: 17px;
+    color: #007bff;
+}
+
+/* Make sure it aligns vertically in navbar */
+.navbar-nav > li.call-now-nav {
+    margin-left: 15px;
+}
+
+.number{
+    color: #c38463 !important;
+}
