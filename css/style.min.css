@@ -25332,30 +25332,26 @@ footer p.copyright-line {
     }
 }
 
-.whatsapp-link {
-  color: #25D366; 
-  font-weight: bold;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  text-decoration: none;
-  transition: color 0.3s ease, transform 0.2s ease;
+.phone-float {
+    position: fixed;
+    bottom: 95px; /* Positioned above WhatsApp button */
+    right: 25px;
+    background-color: #007BFF; /* Blue color for call */
+    color: white;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 26px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-.whatsapp-link i {
-  font-size: 18px;
-}
-
-.whatsapp-link:hover {
-  color: #128C7E;
-  transform: scale(1.05);
-}
-
-.price-book-now:hover{
-    background-color: #4FCE5D !important;
-    color: black !important;
-    font-weight: bold !important;
-    font-size: 15px !important;
+.phone-float:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
 }
 
 .whatsapp-float {
@@ -25372,7 +25368,21 @@ footer p.copyright-line {
     width: 60px;
     height: 60px;
     line-height: 60px;
-  }
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.whatsapp-float:hover {
+    background-color: #128C7E;
+    transform: scale(1.05);
+}
+
+
+.price-book-now:hover{
+    background-color: #4FCE5D !important;
+    color: black !important;
+    font-weight: bold !important;
+    font-size: 15px !important;
+}
 
 /* Who are we section css */
 
@@ -25408,7 +25418,7 @@ footer p.copyright-line {
 .title-bar {
   width: 40px;
   height: 4px;
-  background-color: #1ca5c7;
+  background-color: #b80308;
   display: inline-block;
 }
 
@@ -25500,3 +25510,28 @@ footer p.copyright-line {
 .number{
     color: #c38463 !important;
 }
+
+.quote-buttons-container {
+  background-color: #c18361; /* Light brown background */
+  padding: 40px;
+  text-align: center;
+}
+
+.custom-button {
+  display: inline-block;
+  background-color: white;
+  color: #b36c3d; /* Text color similar to background */
+  padding: 12px 30px;
+  margin: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 999px; /* Fully rounded */
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #b80308;
+  color: white;
+}
+
