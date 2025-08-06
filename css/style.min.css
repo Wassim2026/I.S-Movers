@@ -25336,7 +25336,7 @@ footer p.copyright-line {
     position: fixed;
     bottom: 95px; /* Positioned above WhatsApp button */
     right: 25px;
-    background-color: #007BFF; /* Blue color for call */
+    background-color: #b80308; /* Red color for call */
     color: white;
     border-radius: 50%;
     text-align: center;
