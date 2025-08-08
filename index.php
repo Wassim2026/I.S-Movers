@@ -1,3 +1,58 @@
+<?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
+
+require 'vendor/autoload.php';
+
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $name    = $_POST['full-name'];
+    $mobile  = $_POST['mobile-number'];
+    $service = $_POST['service'];
+
+    $mail = new PHPMailer(true);
+
+    try {
+        // SMTP Configuration
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.gmail.com';
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'i.s.movers25@gmail.com';       // Your Gmail address
+        $mail->Password   = 'hctt irbo qvpr wygs';           // App Password
+        $mail->SMTPSecure = 'tls';
+        $mail->Port       = 587;
+
+        // Sender and Recipient
+        $mail->setFrom('i.s.movers25@gmail.com', 'Website Quote Form');
+        $mail->addAddress('i.s.movers25@gmail.com'); // Admin email
+
+        // Email Content
+        $mail->isHTML(true);
+        $mail->Subject = 'New Quote Request Received';
+        $mail->Body    = "
+            <h2>Quote Request</h2>
+            <p><strong>Full Name:</strong> {$name}</p>
+            <p><strong>Mobile Number:</strong> {$mobile}</p>
+            <p><strong>Selected Service:</strong> {$service}</p>
+        ";
+
+        $mail->send();
+
+        // Success alert
+        echo "<script>
+            alert('Thank you! Your request has been sent successfully.');
+            window.history.back(); // or use: window.location.href = 'your-form-page.html';
+        </script>";
+
+    } catch (Exception $e) {
+        // Failure alert
+        echo "<script>
+            alert('Message could not be sent. Error: " . addslashes($mail->ErrorInfo) . "');
+            window.history.back();
+        </script>";
+    }
+}
+?>
+
 <!doctype html>
 
 
@@ -239,9 +294,8 @@
                     <p>At I.S., we think that moving day should be a celebration.</p>
 
                     <!-- SET THIS FORM TO THE CLIENT EMAIL ID -->
-                    <form class="quote-form">
+                    <form class="quote-form" method="POST">
                       <input type="text" name="full-name" id="full-name" placeholder="Full Name*" required />
-
                       <input type="tel" name="mobile-number" id="mobile-number" placeholder="Mobile Number*" required />
 
                       <select name="service" id="service" required>
@@ -255,7 +309,6 @@
                       </select>
                   
                       <input type="submit" name="submit-quote" id="submit-quote" value="CALL ME BACK" />
-                  
                       <p>* Please fill in all required fields</p>
                     </form>
 
@@ -669,7 +722,7 @@
 			================================================== -->
         <section class="contacting-section">
 
-             <!-- SET THIS FORM TO THE CLIENT EMAIL ID -->
+
             <div class="contacting-box">
                 <form id="qcon-form">
                     <h1>We'll Get You Moving</h1>
@@ -684,7 +737,7 @@
                 </form>
             </div>
 
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2159.4946684673982!2d54.61328099003979!3d24.45693764104314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e4fe465dc83e5%3A0x13c1d86c2157f359!2sAl%20Zeina%20Building%20E1!5e0!3m2!1sen!2sae!4v1754398907917!5m2!1sen!2sae" width="760" height="402" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722544.331349735!2d51.306623832416626!3d24.336137937600693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e48dfb1ab12bd%3A0x33d32f56c0080aa7!2sUnited%20Arab%20Emirates!5e0!3m2!1sen!2sae!4v1754554554197!5m2!1sen!2sae" width="760" height="402" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             
         </section>
         <!-- End contacting section -->
