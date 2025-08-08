@@ -59,51 +59,46 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en" class="no-js">
 
 <head>
-    <title>Top Movers and Packers in Abu Dhabi & Dubai | I.S Movers UAE</title>
+    <title>Top Movers and Packers in Abu Dhabi & Dubai | I.S Movers and Packers UAE</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="description" content="Top movers and packers in Abu Dhabi & Dubai. I.S Movers offers fast, affordable, and stress-free moving services across the UAE. Get a free quote today!">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://ismovers.ae/" />
+    <link rel="canonical" href="https://ismoverspackers.com/" />
 
     <!-- Open Graph -->
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Top Movers and Packers in Abu Dhabi & Dubai | I.S Movers UAE" />
+    <meta property="og:title" content="Top Movers and Packers in Abu Dhabi & Dubai | I.S Movers and Packers UAE" />
     <meta property="og:description" content="Fast, reliable, and stress-free moving services across the UAE. Get a free moving quote from I.S Movers now!" />
-    <meta property="og:url" content="https://ismovers.ae/" />
+    <meta property="og:url" content="https://ismoverspackers.com/" />
     <meta property="og:site_name" content="I.S Movers Abu Dhabi, Dubai" />
     <meta property="article:publisher" content="https://www.facebook.com/profile.php?id=100092559152938" />
     <meta property="article:modified_time" content="2025-05-15T05:15:56+00:00" />
-    <meta property="og:image" content="https://ismovers.ae/assets/images/og-cover.png" />
+    <meta property="og:image" content="https://ismoverspackers.com/images/logo.png" />
     <meta property="og:image:width" content="1400" />
     <meta property="og:image:height" content="933" />
     <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:alt" content="I.S Movers truck in Abu Dhabi - Fast Moving Services" />
+    <meta property="og:image:alt" content="I.S Movers and Packers truck in Abu Dhabi - Fast Moving Services" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Top Movers and Packers in Abu Dhabi & Dubai | I.S Movers UAE">
     <meta name="twitter:description" content="Fast, affordable moving services in Abu Dhabi and Dubai. Get your free moving quote today!">
-    <meta name="twitter:image" content="https://ismovers.ae/assets/images/og-cover.png">
-    <meta name="twitter:site" content="@ismoversae">
+    <meta name="twitter:image" content="https://ismoverspackers.com/images/logo.png">
+    <meta name="twitter:site" content="@ismoverspackerscom">
 
 
-  <link rel="stylesheet" href="css/style.min.css">
-  <!-- Linearicons CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/linearicons/1.0.0/style.min.css" />
-  <!-- FontAwesome CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/style.min.css">
+     <!-- FontAwesome CSS -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">c
 
-  <script src="js/moving-plugins.min.js"></script>
-  <script type="text/javascript" src="js/jquery.countTo.js"></script>
-  <script src="http://maps.google.com/maps/api/js?key=AIzaSyCiqrIen8rWQrvJsu-7f4rOta0fmI5r2SI&amp;sensor=false&amp;language=en" type="text/javascript"></script>
-  <script type="text/javascript" src="js/gmap3.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+    <script src="js/moving-plugins.min.js"></script>
+    <script type="text/javascript" src="js/jquery.countTo.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+
 </head>
 
 <body>
