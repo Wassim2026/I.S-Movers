@@ -89,6 +89,28 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <meta name="twitter:image" content="https://ismoverspackers.com/images/logo.png">
     <meta name="twitter:site" content="@ismoverspackerscom">
 
+    <!-- Schema Markup (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MovingCompany",
+    "name": "IS Movers Packers",
+    "image": "https://ismoverspackers.com/images/logo.png",
+    "@id": "",
+    "url": "https://ismoverspackers.com/",
+    "telephone": "+971-54-285-7671",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Abu Dhabi",
+      "addressLocality": "Abu Dhabi",
+      "addressCountry": "AE"
+    },
+    "areaServed": ["Abu Dhabi", "Dubai", "Sharjah", "Al Ain", "Ras Al-Khaimah"],
+    "priceRange": "$$",
+    "description": "Professional movers and packers in Abu Dhabi and Dubai. Fast, affordable, and stress-free relocation services across the UAE."
+  }
+  </script>
+
 
     <link rel="stylesheet" href="css/style.min.css">
      <!-- FontAwesome CSS -->
@@ -116,7 +138,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                 <ul class="info-list">
                                     <li>
                                         <i class="fa fa-phone"></i> Moving ? Let's Talk :
-                                        <span>+971 054-285-7671</span>
+                                        <span>+971 54-285-7671</span>
                                     </li>
                                     <li>
                                         <i class="fa fa-clock-o"></i> Mon - Fri :
