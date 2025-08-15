@@ -621,7 +621,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="testimonial-post" style="background-color: white; color: black; padding: 20px; border-radius: 10px;">
                             <img src="upload/others/test1.jpg" alt="Fatima Al Mansouri">
                             <p>"Exceptional moving experience! The team was punctual, professional, and handled my belongings with utmost care. Highly recommended for anyone relocating within Dubai."</p>
-                            <h3>Fatima Al Mansouri</h3>
+                            <h3>Ziyad Al Mansouri</h3>
                             <span>Sharjah, UAE</span>
                         </div>
                     </div>
@@ -648,14 +648,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <div class="testimonial-post" style="background-color: white; color: black; padding: 20px; border-radius: 10px;">
                             <img src="upload/others/test4.jpg" alt="Khalid Bin Zayed">
                             <p>"Highly professional team with excellent customer service. They handled all packing and unpacking swiftly, making my home move effortless."</p>
-                            <h3>Khalid Bin Zayed</h3>
+                            <h3>Fatima Bin Zayed</h3>
                             <span>Ajman, UAE</span>
                         </div>
                     </div>
                 
                     <div class="item" style="margin: 15px;">
                         <div class="testimonial-post" style="background-color: white; color: black; padding: 20px; border-radius: 10px;">
-                            <img src="upload/others/test5.jpg" alt="Leila Hassan">
+                            <img src="upload/others/test5.webp" alt="Leila Hassan">
                             <p>"Reliable and trustworthy movers! They took the stress out of moving and provided great value for the service. Would definitely use them again."</p>
                             <h3>Leila Hassan</h3>
                             <span>Dubai, UAE</span>
